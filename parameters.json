@@ -1,0 +1,166 @@
+{
+    "meta": {
+        "rc": "ok"
+    },
+    "data": [
+        {
+            "_id": "xxxxxxxxxxxxxxxxxxxxxxx",
+            "ip": "x.x.x.x",
+            "mac": "xx:xx:xx:xx:xx:xx",
+            "model": "MODEL",
+            "model_in_lts": false,
+            "model_in_eol": false,
+            "type": "uap",
+            "version": "4.0.66.10832",
+            "adopted": true,
+            "site_id": "623e21906973b40b5430cc12",
+            "x_authkey": "6185ff6b21d30d46d9f1634fa3ed9029",
+            "cfgversion": "8ccdaa143216e14d",
+            "syslog_key": "4620c243737d81414e2969220174f23d1bd632bc0a35fdf1d1bc98f4f2b4b28a",
+            "config_network": {
+                "type": "dhcp",
+                "ip": "x.x.x.x"
+            },
+            "setup_id": "94f51e34-f7e5-4070-8752-e93b4b7074cf",
+            "x_vwirekey": "a8a02411749dd6c32b014f4ac373ab62",
+            "vwire_table": [],
+            "mesh_sta_vap_enabled": false,
+            "dot1x_portctrl_enabled": false,
+            "license_state": "registered",
+            "unsupported": false,
+            "unsupported_reason": 0,
+            "adopted_by_client": "web",
+            "x_ssh_hostkey_fingerprint": "xx:xx:xx:xx:xx:xxxx:xx:xx:xx:xx:xxxx:xx:xx:xx",
+            "inform_url": "http://x.x.x.x:8080/inform",
+            "inform_ip": "x.x.x.x",
+            "required_version": "3.4.1",
+            "kernel_version": "4.4.153",
+            "architecture": "mips",
+            "hash_id": "d9db471f7b0eb988",
+            "gateway_mac": "xx:xx:xx:xx:xx:xx",
+            "board_rev": 35,
+            "manufacturer_id": 4,
+            "internet": false,
+            "model_incompatible": false,
+            "x_aes_gcm": true,
+            "antenna_table": [
+                {
+                    "default": true,
+                    "id": 4,
+                    "name": "Combined",
+                    "wifi0_gain": 3,
+                    "wifi1_gain": 3
+                }
+            ],
+            "radio_table": [
+                {
+                    "name": "wifi0",
+                    "channel": "1",
+                    "ht": "20",
+                    "tx_power_mode": "high",
+                    "min_rssi_enabled": true,
+                    "min_rssi": -72,
+                    "vwire_enabled": false,
+                    "hard_noise_floor_enabled": false,
+                    "radio": "ng",
+                    "min_txpower": 6,
+                    "max_txpower": 22,
+                    "builtin_antenna": true,
+                    "builtin_ant_gain": 3,
+                    "current_antenna_gain": 0,
+                    "nss": 3,
+                    "radio_caps": 16420,
+                    "radio_caps2": 0
+                },
+                {
+                    "name": "wifi1",
+                    "channel": "153",
+                    "ht": "40",
+                    "tx_power_mode": "high",
+                    "min_rssi_enabled": true,
+                    "min_rssi": -70,
+                    "vwire_enabled": false,
+                    "hard_noise_floor_enabled": false,
+                    "radio": "na",
+                    "min_txpower": 6,
+                    "max_txpower": 22,
+                    "builtin_antenna": true,
+                    "builtin_ant_gain": 3,
+                    "current_antenna_gain": 0,
+                    "nss": 3,
+                    "is_11ac": true,
+                    "has_dfs": true,
+                    "has_fccdfs": true,
+                    "radio_caps": 50479140,
+                    "radio_caps2": 0
+                }
+            ],
+            "scan_radio_table": [],
+            "ethernet_table": [
+                {
+                    "mac": "xx:xx:xx:xx:xx:xx",
+                    "num_port": 2,
+                    "name": "eth0"
+                }
+            ],
+            "port_table": [
+                {
+                    "port_idx": 1,
+                    "op_mode": "switch",
+                    "portconf_id": "623e21976973b40b5430cc29",
+                    "name": "Port 1",
+                    "enable": true,
+                    "masked": false,
+                    "aggregated_by": false
+                },
+                {
+                    "port_idx": 2,
+                    "op_mode": "switch",
+                    "portconf_id": "623e21976973b40b5430cc29",
+                    "name": "Port 2",
+                    "enable": true,
+                    "masked": false,
+                    "aggregated_by": false
+                }
+            ],
+            "switch_caps": {
+                "feature_caps": 32,
+                "max_mirror_sessions": 0,
+                "max_aggregate_sessions": 0,
+                "max_l3_intf": 0,
+                "max_reserved_routes": 0,
+                "max_static_routes": 0
+            },
+            "has_speaker": false,
+            "has_eth1": false,
+            "fw_caps": 25099583,
+            "hw_caps": 0,
+            "wifi_caps": 573429,
+            "sys_error_caps": 0,
+            "has_fan": false,
+            "has_temperature": false,
+            "country_code": 0,
+            "countrycode_table": [],
+            "atf_enabled": true,
+            "supports_fingerprint_ml": false,
+            "connected_at": 1648248322,
+            "provisioned_at": 1648248516,
+            "name": "AP-27",
+            "two_phase_adopt": false,
+            "device_id": "623e45ec6973b40b5430cd6b",
+            "state": 0,
+            "start_disconnected_millis": 1650465363734,
+            "upgrade_state": 0,
+            "vap_table": [],
+            "vwireEnabled": true,
+            "uplink_table": [],
+            "radio_table_stats": [],
+            "num_sta": 0,
+            "user-num_sta": 0,
+            "user-wlan-num_sta": 0,
+            "guest-num_sta": 0,
+            "guest-wlan-num_sta": 0,
+            "x_has_ssh_hostkey": true
+        }
+    ]
+}
