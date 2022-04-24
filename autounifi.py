@@ -13,6 +13,9 @@ credentials = {
     "password": "password"
 }
 
+excel_name = 'AP Parameters'
+sheet_name = 'Parameters'
+
 # SESION ESTABLISHMENT ON UNIFI
 session = requests.Session()
 
@@ -33,7 +36,7 @@ for device in data_devices:
 
 # EXTRACT PARAMETERS (VALUES) FROM EXCEL
 
-excel = pandas.read_excel('AP Parameters.xlsx', sheet_name='Parameters')
+excel = pandas.read_excel('{}.xlsx'.format(excel_name), sheet_name='{}'.format(sheet_name))
 json_parameters = excel.to_json(orient='records')
 dict_parameters = json.loads(json_parameters)
 
