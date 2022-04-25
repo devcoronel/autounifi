@@ -71,12 +71,12 @@ for ap in dict_parameters:
     })
 
     response = session.put(url_update, headers=headers, data=payload)
-    updated_devices.append(id_devices[ap["NOMBRE"]])
+    updated_devices.append(id_devices[ap["NAME"]])
 
-    print("* Successful Update: {}".format(ap["NOMBRE"]))
+    print("* Successful Update: {}".format(ap["NAME"]))
 
   except:
-    print("- Name not found: {}".format(ap["NOMBRE"]))
+    print("- Name not found: {}".format(ap["NAME"]))
 
 # RESULTS PRINTED
 
