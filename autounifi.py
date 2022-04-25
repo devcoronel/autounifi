@@ -46,7 +46,7 @@ updated_devices = []
 
 for ap in dict_parameters:
   try:
-    url_update = "https://{}:{}/api/s/default/rest/device/{}".format(gateway["ip"], gateway["port"], id_devices[ap["NOMBRE"]])
+    url_update = "https://{}:{}/api/s/default/rest/device/{}".format(gateway["ip"], gateway["port"], id_devices[ap["NAME"]])
 
     payload = json.dumps({
       "mesh_sta_vap_enabled": False,
