@@ -236,13 +236,13 @@ while True:
 
       while True:
         try:
-          request_finish = input("Are you ready to configuring those APs? (Y/N): ")
+          request_finish = input("Are you ready to configure those APs? (Y/N): ")
           request_finish = (str(request_finish)).lower()
 
           while True:
 
             if request_finish != 'n' and request_finish != 'y':
-                request_finish = input("Are you ready to configuring those APs? (Y/N): ")
+                request_finish = input("Are you ready to configure those APs? (Y/N): ")
                 request_finish = (str(request_finish)).lower()
               
             else:
