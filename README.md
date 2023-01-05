@@ -1,5 +1,5 @@
 # autounifi
-autounifi is an Python Script to automate Access Point Radio Configuration in a Ubiquiti Unifi Controller v7.2.92
+autounifi is an Python Script to automate Access Point Radio Configuration in a Ubiquiti Unifi Controller v7.3.76
 
 You can configure AP radio configurations in seconds every one at the same time.
 We only need an Excel file where parameters are especified (for example: Channel, Channel Width, Power Mode, RSSI, MESH, etc.)
